@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(245, 245, 215);
+}
+#topvar{
+  width: 100%;
+    font-size: 25px;
+    padding:  30px; margin: 10px;
+    background-color: aqua;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    margin-left: 8rem;
+}
+li > a{
+    text-decoration: none;
+    color: green;
+    font-size:#fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+li::after{
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: block;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+li:hover::after{
+    will-change: 2rem;
+}
+
+#head {
+    text-align: center;
+    color: rgb(161, 20, 20);
+
+}
+
+#thai {
+ border-radius: 10px;
+ display: block;
+ margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: auto;
+}
+#appetizers{
+    
+    color: rgb(172, 32, 32);
+    margin: auto;
+    width: 14%;
+    border-radius: 9px;
+    padding: 1px;
+}
+.gold{ 
+    text-align: center;
+    border: 3px solid;
+    width: 90%;
+    
+}
+th , td ,tr {
+    border:  1px solid;
+    margin: auto;
+    width: auto;
+    padding: 2px;
+    border-radius: 9px;
+}
+   
+#lunch{ 
+   text-align: center;
+   color: rgb(160, 35, 35);
+}
+#dinner{
+    text-align: center;
+   color: rgb(160, 35, 35);
+}
+#dessert{
+    text-align: center;
+   color: rgb(160, 35, 35);
+}
+
+#Beverages{
+    text-align: center;
+   color: rgb(160, 35, 35);
+}
+#side{
+    text-align: center;
+   color: rgb(160, 35, 35);
+}
+   
+#clan{
+    width: 100%;
+    font-size: 25px;
+    padding:  30px; margin: 10px;
+    
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li {
+    list-style-type: none;
+    margin-left: 8rem;
+}
+li > a{
+    text-decoration: none;
+    color: green;
+    font-size:#fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+li::after{
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: block;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+li:hover::after{
+    will-change: 2rem;
+}
+h1{
+    text-align: center;
+    color: rgb(169, 58, 58);
+    text-decoration: underline;
+}
